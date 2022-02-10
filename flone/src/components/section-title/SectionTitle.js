@@ -15,7 +15,7 @@ const SectionTitle = ({
         spaceClass ? spaceClass : ""
       } ${borderClass ? borderClass : ""}`}
     >
-      <h2>{titleText}</h2>
+      <h2 className="section-tle">{titleText}</h2>
       <p className={subtitleColorClass ? subtitleColorClass : ""}>
         {subtitleText}
       </p>
