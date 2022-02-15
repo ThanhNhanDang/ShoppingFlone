@@ -4,9 +4,9 @@ import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
-import BlogSidebar from "../../wrappers/blog/BlogSidebar";
-import BlogPagination from "../../wrappers/blog/BlogPagination";
-import BlogPosts from "../../wrappers/blog/BlogPosts";
+import BlogSidebar from "../../wrappers/banner/blog/BlogSidebar";
+import BlogPagination from "../../wrappers/banner/blog/BlogPagination";
+import BlogPosts from "../../wrappers/banner/blog/BlogPosts";
 
 const BlogStandard = ({ location }) => {
   const { pathname } = location;
